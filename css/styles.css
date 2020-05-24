@@ -188,6 +188,12 @@ a {
   color: #333333;
 }
 
+.partners-header-span {
+  margin: 0 auto;
+  display: block;
+  max-width: 270px;
+}
+
 .image-wrapper {
   margin: 0 auto;
   position: relative;
