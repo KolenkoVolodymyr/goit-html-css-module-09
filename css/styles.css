@@ -112,22 +112,13 @@ a {
 }
 
 .logo {
-  text-align: center;
   font-size: 2rem;
   letter-spacing: 1px;
   color: #ffffff;
 }
 
-.autorization-column {
-  margin-bottom: 116px;
-}
-
 .header-content-wrapper {
   text-align: center;
-}
-
-.header-top-row {
-  margin-bottom: 38px;
 }
 
 .header-title {
@@ -148,7 +139,6 @@ a {
   font-family: 'Roboto';
   font-weight: 300;
   margin: 0 auto;
-  max-width: 230px;
   font-size: 1.8rem;
   color: #ffffff;
   margin-bottom: 18px;
@@ -191,7 +181,6 @@ a {
 .partners-header-span {
   margin: 0 auto;
   display: block;
-  max-width: 270px;
 }
 
 .image-wrapper {
@@ -290,4 +279,59 @@ a {
 .btn-other:focus {
   color: #ffffff;
   background-color: #ff4e50;
+}
+
+@media (max-width: 767px) {
+  .autorization-column {
+    margin-bottom: 116px;
+  }
+
+  .header-top-row {
+    margin-bottom: 38px;
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  .header-title-text {
+    max-width: 230px;
+  }
+
+  .partners-header-span {
+    max-width: 270px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-top-row {
+    margin-bottom: 150px;
+  }
+
+  .autorization-list {
+    justify-content: flex-end;
+  }
+
+  .header {
+    padding-bottom: 235px;
+    background-image: url(../images/bg-img/tablet.png);
+  }
+
+  .header-title {
+    margin-bottom: 40px;
+    font-size: 5.2rem;
+  }
+
+  .header-title-text {
+    margin-bottom: 37px;
+    font-size: 2.4rem;
+  }
+
+  .header-title-span {
+    max-width: 600px;
+  }
+
+  .partners-title {
+    margin-bottom: 40px;
+  }
 }
