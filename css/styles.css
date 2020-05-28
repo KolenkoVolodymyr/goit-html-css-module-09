@@ -107,7 +107,7 @@ a {
   transition: linear 0.2s;
 }
 
-.autorization-list-item-btn:focus {
+.autorization-list-item-btn:hover {
   border: 2px solid rgb(255, 255, 255);
 }
 
@@ -154,7 +154,7 @@ a {
   transition: linear 0.2s;
 }
 
-.header-btn:focus {
+.header-btn:hover {
   background-color: #ff4e50;
 }
 
@@ -263,7 +263,7 @@ a {
   transition: linear 0.2s;
 }
 
-.btn-other:focus {
+.btn-other:hover {
   color: #ffffff;
   background-color: #ff4e50;
 }
@@ -307,6 +307,10 @@ a {
     justify-content: flex-end;
   }
 
+  .autorization-list-item-btn:focus {
+    border: 2px solid rgb(255, 255, 255);
+  }
+
   .header {
     padding-top: 40px;
     padding-bottom: 235px;
@@ -324,11 +328,28 @@ a {
     font-size: 2.4rem;
   }
 
+  .header-btn {
+    width: 225px;
+  }
+
+  .header-btn:focus {
+    background-color: #ff4e50;
+  }
+
   .partners-title {
     margin-bottom: 40px;
   }
   .partners-list {
     margin-bottom: 40px;
+  }
+
+  .btn-other {
+    width: 192px;
+  }
+
+  .btn-other:focus {
+    color: #ffffff;
+    background-color: #ff4e50;
   }
 }
 
